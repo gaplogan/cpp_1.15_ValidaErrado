@@ -26,6 +26,7 @@ int main()
 
     //{Processamento: Tenta extrair a raiz quadrada do número lido}
     raiz = sqrt(num); //AQUI SERÁ GERADO UM ERRO SE "Num" FOR NEGATIVO !!!
+    //raiz = pow(num, (double)1/2); // Alternativa para calcular raiz quadrada: num elevado ao inverso de 2 (2 = potência 2 ou ao quadrado)
 
     cout << "Raiz quadrada de " << num << ": " << raiz << endl;
 
